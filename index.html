@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فیلیمو - صفحه اصلی</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+  <!-- هدر -->
+  <div class="header" id="header">
+    <ul class="header-left">
+      <li><a href="pages/login.html">ورود به حساب</a></li>
+      <li><a href="#">خرید اشتراک</a></li>
+    </ul>
+    <ul class="header-right">
+      <li><a href="#">فیلم</a></li>
+      <li><a href="#">سریال</a></li>
+      <li><a href="#">انیمیشن</a></li>
+      <li><a href="#" id="search-toggle">جستجو</a></li>
+    </ul>
+    <div class="search-bar" id="search-bar">
+      <input type="text" placeholder="جستجو..." id="search-input">
+    </div>
+  </div>
+
+  <!-- اسلایدر اول -->
+  <div class="slideshow-container slider-1">
+    <div class="mySlides slide-1 fade">
+      <img src="images/img101.jpg" style="width:100%">
+    </div>
+    <div class="mySlides slide-1 fade">
+      <img src="images/img102.jpg" style="width:100%">
+    </div>
+    <a class="prev prev-1" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next next-1" onclick="plusSlides1(1)">&#10095;</a>
+  </div>
+
+  <br><br>
+
+  <div class="slider-title">
+    <h2>فیلم‌ها</h2>
+  </div>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="card">
+        <img src="images/img101.jpg" alt="عکس">
+        <h3>فیلم</h3>
+        <a href="https://example.com/luxora"><button>تماشا</button></a>
+      </div>
+      <div class="card">
+        <img src="images/img102.jpg" alt="عکس">
+        <h3>فیلم</h3>
+        <a href="https://example.com/grandeur"><button>تماشا</button></a>
+      </div>
+      <div class="card">
+        <img src="images/img103.jpg" alt="عکس">
+        <h3>فیلم</h3>
+        <a href="https://example.com/prestigio"><button>تماشا</button></a>
+      </div>
+      <div class="card">
+        <img src="images/img101.jpg" alt="عکس">
+        <h3>فیلم</h3>
+        <a href="https://example.com/elite"><button>تماشا</button></a>
+      </div>
+      <div class="card">
+        <img src="images/img104.jpg" alt="عکس">
+        <h3>فیلم</h3>
+        <a href="https://example.com/elegant"><button>تماشا</button></a>
+      </div>
+    </div>
+    <span class="arrow arrow-prev" onclick="plusSlides(-1)">❯</span>
+    <span class="arrow arrow-next" onclick="plusSlides(1)">❮</span>
+  </div>
+
+
+
+
+  <footer>
+    <p>تمامی حقوق محفوظ است &copy; 2025</p>
+  </footer>
+
+  <script src="Script/script.js"></script>
+</body>
+
+</html>
